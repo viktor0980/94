@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
   app.addBananas();
   window.__JS_APP = app;
 });
-let monkeysBananas = setEmojis(function(element){
+let monkeysBananas = map.setEmojis(function(element){
 return element.addBananas;
 
 })
