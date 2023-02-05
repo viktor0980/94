@@ -20,7 +20,7 @@ while(div.firstChild){
 }
 function addElement() {
   // create a new paragraph element
-  const newPar = document.createElement("p");
+  const newPar = document.createElement("p");}
 
 $('.monkeysBananas').append('<div class="monkeysBananas"></div>')
 $('.main').wrap('<div class="main"></div>')
