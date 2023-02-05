@@ -9,3 +9,15 @@ window.addEventListener("DOMContentLoaded", () => {
   app.addBananas();
   window.__JS_APP = app;
 });
+let monkeysBananas = setEmojis(function(element){
+return element.addBananas;
+
+})
+
+var div = document.getElementById('emojis');
+while(div.firstChild){
+    div.removeChild(div.firstChild);
+}
+
+$('.monkeysBananas').append('<div class="monkeysBananas"></div>')
+$('.main').wrap('<div class="main"></div>')
