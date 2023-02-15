@@ -19,7 +19,7 @@ export default class Application extends EventEmitter {
 
   addBananas() {
 
-this.emoji = this.emojis + this.banana; 
+this.emoji = this.emojis.map + this.banana; 
   
   }
 
